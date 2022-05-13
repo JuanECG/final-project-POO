@@ -1,4 +1,7 @@
 
+import json
+
+
 class Acta:
 
     def __init__(self,fecha,autor,nombre,tipo,director,jurado1,jurado2) -> None:
@@ -11,3 +14,6 @@ class Acta:
         self.jurado2 = jurado2
 
 
+
+    def __str__(self) -> str:
+        return json.dump(self.__dict__)
