@@ -1,0 +1,70 @@
+{
+    "criterios":[
+        {
+            "id":1,
+            "categoria":"contexto",
+            "descripcion":"Introduce gradualmente al lector en el escenario donde se presenta el problema y describe características específicas que sean interesantes para entender la problemática (ejm geográficas, culturales, económicas)",
+            "porcentaje":0.2,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":2,
+            "categoria":"contexto",
+            "descripcion":"Presenta los involucrados en el proyecto (stakeholders) y la  información relevante para entender los stakeholders. Por ejemplo sus condiciones económicas, características culturales, étnicas, su forma de trabajo, etc .",
+            "porcentaje":0.1,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":3,
+            "categoria":"contexto",
+            "descripcion":"La información presentada en el contexto  es relevante para el problema",
+            "porcentaje":0.1,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":4,
+            "categoria":"contexto",
+            "descripcion":"Soporta el contexto con estudios, cifras, datos sectoriales de referencias bibliográficas de fuentes confiables. Ejm. estudios sectoriales, revistas o publicaciones académicas, medios de difusión nacional o internacional. NO: blogs, youtube, y fuentes no académicas",
+            "porcentaje":0.2,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":5,
+            "categoria":"objetivos",
+            "descripcion":"Cumplimiento de los objetivos propuestos",
+            "porcentaje":0.1,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":6,
+            "categoria":"objetivos",
+            "descripcion":"Validez de los resultados y conclusiones",
+            "porcentaje":0.1,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":7,
+            "categoria":"generales",
+            "descripcion":"Calidad y presentación del documento escrito",
+            "porcentaje":0.1,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        },
+        {
+            "id":8,
+            "categoria":"generales",
+            "descripcion":"Presentación oral",
+            "porcentaje":0.1,
+            "calificacion1":0.0,
+            "calificacion2":0.0
+        }
+
+    ]
+
+}
