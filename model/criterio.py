@@ -3,7 +3,7 @@ import json
 
 class Criterio:
 
-    def __int__(self, id, descripcion,porcentaje,cal1,cal2,categoria)-> None:
+    def __init__(self, id, descripcion,porcentaje,cal1,cal2,categoria)-> None:
         self.id = id
         self.descripcion = descripcion
         self.porcentaje = porcentaje
