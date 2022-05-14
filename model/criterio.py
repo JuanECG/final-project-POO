@@ -2,13 +2,14 @@ import json
 
 
 class Criterio:
-    next_id = 1
 
-    def __int__(self, descripcion, categoria)-> None:
-        self._descripcion = descripcion
+    def __int__(self, id, descripcion,porcentaje,cal1,cal2,categoria)-> None:
+        self.id = id
+        self.descripcion = descripcion
+        self.porcentaje = porcentaje
+        self.calificacion1 = cal1
+        self.calificacion2 = cal2
         self._categoria = categoria
-        self._id = Criterio.next_id
-        Criterio.next_id += 1
 
     def __str__(self) -> str:
         return json.dump(self.__dict__)
