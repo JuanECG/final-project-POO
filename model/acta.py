@@ -2,10 +2,10 @@ import json
 from model.criterio import Criterio
 
 class Acta:
-    next_id = 1
+    next_id = 1    
 
     def __init__(self) -> None:        
-        self._numero = Acta.next_id
+        self.numero = Acta.next_id
         Acta.next_id += 1
         self.id_estudiante = ""
         self.nombre = ""
