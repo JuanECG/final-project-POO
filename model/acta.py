@@ -3,15 +3,18 @@ import json
 
 
 class Acta:
+    next_id = 1
 
-    def __init__(self,fecha,autor,nombre,tipo,director,jurado1,jurado2) -> None:
-        self.fecha = fecha
-        self.autor = autor
-        self.nombre = nombre
-        self.tipo = tipo
-        self.director = director
-        self.jurado1 = jurado1
-        self.jurado2 = jurado2
+    def __init__(self) -> None:
+        self._numero = Acta.next_id
+        Acta.next_id += 1
+        self.nombre = ""
+        self.tipo = ""
+        self.fecha = ""
+        self.autor = ""
+        self.director = ""
+        self.jurado1 = ""
+        self.jurado2 = ""
 
 
 
