@@ -17,8 +17,8 @@ class Acta:
         self.nota = 0.0
         self.jurado1 = ""
         self.jurado2 = ""
+        self.observaciones = ""
         self.criterios=[]
-        self.observaciones = []
 
         # Llamado al método que inicializa la información precargada
         self._inicializar_criterios()

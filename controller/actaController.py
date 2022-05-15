@@ -6,7 +6,9 @@ class ActaController:
 
     def agregar_acta(self, acta):        
         self.actas.append(acta)
-
-    def evaluar_acta(self):
-        pass
     
+    def getActaNombre(self,nombre):
+        for acta in self.actas:
+            if acta.nombre == nombre:
+                return acta
+        return ""
