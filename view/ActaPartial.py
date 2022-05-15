@@ -68,3 +68,4 @@ def listar_actas(st, controller):
         st.write(acta.jurado1)
         st.write(acta.jurado2)
         st.write(acta.observaciones)
+        st.write("TEST")
